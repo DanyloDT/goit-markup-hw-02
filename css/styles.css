@@ -50,18 +50,15 @@ body {
 } 
 .menu-link:hover,
 .menu-link:focus,
-.contact-mail:hover,
-.contact-mail:focus,
-.contact-number:hover,
-.contact-number:focus {
+.contact-info:hover,
+.contact-info:focus {
     color:var(--accent-color);
 }
 
 .contact  {
     font-style: normal;
 }
-.contact-mail,
-.contact-number {
+.contact-info {
     color: var(--primary-text-color);
     font-size: 16px;
     line-height: 1.5;    
@@ -127,6 +124,7 @@ body {
     
 }
 .description {
+    color: var(--primary-text-color);
     font-size: 16px;
     line-height: 1.5;
 }
