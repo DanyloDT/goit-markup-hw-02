@@ -24,8 +24,9 @@ body {
 /* Шапка сторінки */
 /*=================== page-header===================*/
 
- .logo {
-    color: #2E2F42;
+ .logo-header {
+    color: #4D5AE5;
+    
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
@@ -37,8 +38,8 @@ body {
     text-transform: uppercase;    
 }
 
- .logo .active {
-    color: #4D5AE5;
+ .logo-header .active {
+    color: #2E2F42;
 }
 
 .menu-link {
@@ -56,16 +57,23 @@ body {
     color:var(--accent-color);
 }
 
-.contact-mail, 
+.contact  {
+    font-style: normal;
+}
+.contact-mail,
 .contact-number {
+    color: var(--primary-text-color);
     font-size: 16px;
-    line-height: 1.5x;    
+    line-height: 1.5;    
 }
 
 /*=================== /page-header ===================*/
 
 /*=================== Унікальний контент ===================*/
 /*=================== hero image ===================*/
+.hero {
+    background: #2E2F42;
+}
 
 .main-title {
     color: #FFFFFF; 
@@ -73,6 +81,7 @@ body {
     font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
+    
        
     text-align: center;
        
@@ -80,9 +89,11 @@ body {
 
 .modal-btn {
     color: #FFFFFF;
+    font-family: var(--primary-font);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
+    letter-spacing: 0.04em;
        
     cursor: pointer;
         
@@ -96,13 +107,15 @@ body {
 }
 /*=================== /hero image ===================*/
 /* =================== section ===================== */
+
+
 .section-title {
 
     color: var(--secondly-text-color);
     font-weight: 700;
     font-size: 36px;
     line-height: 1.11;
-
+    
     text-align: center;
     text-transform: capitalize;
 }
@@ -110,21 +123,57 @@ body {
     color: var(--secondly-text-color);
     font-weight: 500;
     font-size: 20px;
-    line-height: 1.2;       
+    line-height: 1.2;  
+    
 }
 .description {
     font-size: 16px;
     line-height: 1.5;
 }
+.personnel {
+    background: #F4F4FD;
+}
+.personnel-list {
+    background: #FFFFFF;      
+}
 /* =================== /section ===================== */
 
 /* =================== footer ======================= */
+.page-footer {
+    background: #2E2F42;
+}
+.logo-foter {
+
+    color: #4D5AE5;
+    
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+   
+
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+.logo-foter .active {
+    color: #F4F4FD;
+}
+.page-footer-description {
+
+    color: #F4F4FD;
+
+    font-size: 16px;
+    line-height: 1.5;
+}
 /* =================== /footer ======================= */
 
 /* ==================Portfolio============== */
 /* =================== section ===================== */
 .filters-btn{
     color: #4D5AE5;
+    font-family: var(--primary-font);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
