@@ -1,0 +1,157 @@
+:root {
+    --primary-font: 'Roboto', sans-serif;
+    --primary-text-color: #434455;
+    --secondly-text-color: #2E2F42;
+    --accent-color: #404BBF;
+}
+
+body {
+    background: #FFFFFF;
+    color: var(--primary-text-color);
+    font-family: var(--primary-font);
+    letter-spacing: 0.02em;
+}
+.list {
+    list-style: none;
+}
+    
+.link {
+    text-decoration: none;
+}
+/* =================== Components===================*/
+
+/* =================== /Components===================*/
+/* Шапка сторінки */
+/*=================== page-header===================*/
+
+ .logo {
+    color: #2E2F42;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;    
+}
+
+ .logo .active {
+    color: #4D5AE5;
+}
+
+.menu-link {
+    color: var(--secondly-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+} 
+.menu-link:hover,
+.menu-link:focus,
+.contact-mail:hover,
+.contact-mail:focus,
+.contact-number:hover,
+.contact-number:focus {
+    color:var(--accent-color);
+}
+
+.contact-mail, 
+.contact-number {
+    font-size: 16px;
+    line-height: 1.5x;    
+}
+
+/*=================== /page-header ===================*/
+
+/*=================== Унікальний контент ===================*/
+/*=================== hero image ===================*/
+
+.main-title {
+    color: #FFFFFF; 
+    
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+       
+    text-align: center;
+       
+}
+
+.modal-btn {
+    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+       
+    cursor: pointer;
+        
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+.modal-btn:hover,
+.modal-btn:focus {
+    background: var(--accent-color);
+}
+/*=================== /hero image ===================*/
+/* =================== section ===================== */
+.section-title {
+
+    color: var(--secondly-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+
+    text-align: center;
+    text-transform: capitalize;
+}
+.subtitle {
+    color: var(--secondly-text-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;       
+}
+.description {
+    font-size: 16px;
+    line-height: 1.5;
+}
+/* =================== /section ===================== */
+
+/* =================== footer ======================= */
+/* =================== /footer ======================= */
+
+/* ==================Portfolio============== */
+/* =================== section ===================== */
+.filters-btn{
+    color: #4D5AE5;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+
+    cursor: pointer;
+   
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.04em;
+
+    background: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;    
+}
+.filters-btn:hover,
+.filters-btn:focus {
+    color: #FFFFFF;
+    background: #404BBF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+}
+
+.filters-title {
+    color: var(--secondly-text-color);
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;  
+}
+/* =================== /section ===================== */
